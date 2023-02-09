@@ -1,0 +1,25 @@
+@import 'reset-css';
+@import 'base';
+
+@import url('https://fonts.cdnfonts.com/css/Rubik');
+
+
+body {
+
+  font-feature-settings: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container{
+  width: 1170px;
+  margin: auto;
+}
+
+.hidden{
+  display: none;
+}
