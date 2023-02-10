@@ -1,11 +1,17 @@
 @import 'reset-css';
 @import 'base';
 
-@import url('https://fonts.cdnfonts.com/css/Rubik');
+@import url('https://fonts.cdnfonts.com/css/Montserrat');
 
+@import './header.scss';
+@import "./menu.scss";
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
 body {
-
+  font-family: 'Montserrat';
+  font-style: normal;
   font-feature-settings: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -16,8 +22,7 @@ a{
 }
 
 .container{
-  width: 1170px;
-  margin: auto;
+  margin: 0 70px;
 }
 
 .hidden{

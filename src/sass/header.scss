@@ -1,0 +1,126 @@
+@use 'base';
+
+.header{
+  position: relative;;
+}
+
+.header__title_wrapper{
+
+}
+
+.header__title{
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 125.5%;
+  letter-spacing: 0.045em;
+  color: $white;
+  max-width: 595px;
+  margin-bottom: 37px;
+}
+
+.header__caption{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 108.7%;
+  color: $white;
+  margin-bottom: 82px;
+}
+
+.header__phone{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 104.7%;
+  letter-spacing: 0.02em;
+  color: $white;
+  display: block;
+  margin-bottom: 11px;
+}
+
+.header__button-gray{
+  width: 177px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 104.7%;
+  letter-spacing: 0.02em;
+  color: $white;
+
+  margin-left: 30px;
+}
+
+.header__background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 918px;
+  overflow: hidden;
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 108px;
+}
+
+.header__logo_wrapper{
+  padding-top: 11px;
+}
+
+.header__phone_wrapper{
+  margin-top: 36px;
+
+}
+
+.header__phone{
+  display: flex;
+}
+
+.header__phone_icon{
+  display: block;
+  margin-right: 13px;
+}
+
+.header__button{
+  width: 274px;
+  height: 55px;
+
+  background: #037E8C;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 108.7%;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding-left: 23px;
+  padding-right: 12px;
+  margin-top: 82px;
+}
+
+.header__button_icon{
+  display: block;
+  width: 14px;
+}
+
+.header__button_icon_wrapper{
+  width: 31px;
+  height: 31px;
+  background: $white;
+  border-radius: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
