@@ -3,11 +3,14 @@
 
 @import url('https://fonts.cdnfonts.com/css/Montserrat');
 
-@import './header.scss';
-@import "./menu.scss";
-
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+
+@import './header.scss';
+@import "./menu.scss";
+@import './advantages.scss';
+@import "./grid.scss";
+
 
 body {
   font-family: 'Montserrat';

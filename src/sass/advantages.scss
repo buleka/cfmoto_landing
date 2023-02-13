@@ -1,0 +1,45 @@
+@use 'base';
+
+
+.advantages{
+  margin: 47px 0;
+}
+
+.advantages__item{
+  max-width: 302px;
+}
+
+.advantages__img{
+  display: flex;
+}
+
+.advantages__ellipse{
+  background: $blue;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  z-index: -1;
+  transform: translate3d(-60%, 0, 0);
+}
+
+.advantages__icon{
+  display: block;
+}
+
+.advantages__text{
+  margin-top: 21px;
+  font-size: 18px;
+  line-height: 108.7%;
+  color: $black;
+}
+
+.advantages__title{
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+
+.advantages__caption{
+  font-weight: 400;
+  font-size: 16px;
+}

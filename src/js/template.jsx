@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Header from './header.jsx'
-
+import Section1 from './section1.jsx'
 class Template extends React.Component {
     render() {
         return (
@@ -9,7 +9,7 @@ class Template extends React.Component {
                 <Header/>
                 <main>
                     <div className={'container'}>
-
+                        <Section1/>
                     </div>
                 </main>
             </div>
