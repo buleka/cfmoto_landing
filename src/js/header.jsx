@@ -1,7 +1,6 @@
 import React from 'react'
-import Slider from "react-slick";
-
-
+// import Slider from "react-slick";
+import Flickity from "react-flickity-component";
 
 //Icons
 import Logo from '../image/logo.svg'
@@ -27,7 +26,27 @@ class Item extends React.Component {
             </li>
         )
     }
+}
 
+function Carousel(){
+    const flickityOptions = {
+        initialIndex: 1,
+        prevNextButtons: false
+    }
+
+    return(
+        <Flickity
+            className={'carousel'} // default ''
+            elementType={'div'} // default 'div'
+            options={flickityOptions} // takes flickity options {}
+            disableImagesLoaded={false} // default false
+            reloadOnUpdate // default false
+            static // default false
+        >
+            <img src={Background}/>
+            <img src={Background}/>
+        </Flickity>
+    )
 }
 
 class Header extends React.Component {
@@ -40,32 +59,10 @@ class Header extends React.Component {
         const list = titles.map((title, index) => {
             return (<Item name={title} key={index}/>)
         })
-
-        const settings = {
-            dots: true,
-            infinite: true,
-            arrows: false,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            variableWidth: true,
-            swipeToSlide: true,
-        };
-
-
         return (
             <header className={'header'}>
-
-
                 <div className={'header__background'}>
-                    <Slider {...settings}>
-                        <div><img src={Background}/></div>
-                        <div><img src={Background}/></div>
-                        <div><img src={Background}/></div>
-                        <div><img src={Background}/></div>
-                        <div><img src={Background}/></div>
-                        <div><img src={Background}/></div>
-                    </Slider>
+                    <Carousel/>
                 </div>
                 <div className={'container'}>
                     <div className={'header__top'}>
