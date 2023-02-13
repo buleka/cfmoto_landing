@@ -38,12 +38,14 @@ class Section1 extends React.Component {
     render() {
         return (
             <section className={'advantages'}>
-                <div className={'grid'}>
-                    <Item icon={ForestIcon} title={'Увлекательные экскурсии'} text={'Маршруты от лесных дорожек до полного бездорожья!'}/>
-                    <Item icon={MotoIcon} title={'Надежная техника'} text={'18 квадроциклов всех японских брендов'}/>
-                    <Item icon={HelmIcon} title={'Экипировка бесплатно'} text={'Необходимая экипировка выдается бесплатно'}/>
-                    <Item icon={InstructorIcon} title={'Опытные инструктора'} text={'Обеспечат полную безопасность Вашего отдыха'}/>
+                <div className={'container'}>
+                    <div className={'grid'}>
+                        <Item icon={ForestIcon} title={'Увлекательные экскурсии'} text={'Маршруты от лесных дорожек до полного бездорожья!'}/>
+                        <Item icon={MotoIcon} title={'Надежная техника'} text={'18 квадроциклов всех японских брендов'}/>
+                        <Item icon={HelmIcon} title={'Экипировка бесплатно'} text={'Необходимая экипировка выдается бесплатно'}/>
+                        <Item icon={InstructorIcon} title={'Опытные инструктора'} text={'Обеспечат полную безопасность Вашего отдыха'}/>
 
+                    </div>
                 </div>
             </section>
         )

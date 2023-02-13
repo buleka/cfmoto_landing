@@ -3,3 +3,20 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 30px;
 }
+
+.grid-half{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+
+  .grid-half__item:first-child {
+    margin-left: 180px;
+    max-width: 524px;
+  }
+}
+
+.grid--revert {
+  .grid-half__item:first-child {
+    order: 2;
+  }
+}

@@ -1,0 +1,32 @@
+@use "base";
+
+.button{
+  width: 365px;
+  height: 45px;
+  border: 1.5px solid $blue;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-wrapper {
+  display: flex;
+
+  .button {
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.button--white{
+  color: base.$blue;
+}
+
+.button--blue{
+  background: base.$blue;
+  color: $white;
+}

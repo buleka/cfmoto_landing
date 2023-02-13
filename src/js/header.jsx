@@ -65,7 +65,6 @@ class Header extends React.Component {
                         <div><img src={Background}/></div>
                         <div><img src={Background}/></div>
                         <div><img src={Background}/></div>
-
                     </Slider>
                 </div>
                 <div className={'container'}>

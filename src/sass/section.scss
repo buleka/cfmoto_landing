@@ -1,0 +1,18 @@
+@use 'base';
+
+.section--gray{
+  background-image: url('../image/background.svg');
+  background-color: #F4F4F4;
+  padding-top: 57px;
+  padding-bottom: 118px;
+}
+
+.section__title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  color: $black;
+  text-align: center;
+  margin-bottom: 67px;
+}
+

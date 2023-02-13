@@ -1,0 +1,28 @@
+@use 'base';
+
+.list-icons{
+
+}
+
+.list-icons__item{
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 108.7%;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+
+  img{
+    display: block;
+    margin-right: 9px;
+  }
+
+  b{
+    font-weight: 600;
+  }
+}
