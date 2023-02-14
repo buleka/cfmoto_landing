@@ -1,0 +1,45 @@
+@use "base";
+
+.video {
+  display: flex;
+  align-items: center;
+  position: relative;
+justify-content: center;
+  width: 1078px;
+  height: 430px;
+  box-sizing: border-box;
+}
+
+.video__title {
+
+}
+
+.video__preview{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border: 7px solid #FFFFFF;
+  border-radius: 22px;
+  display: block;
+  pointer-events: none;
+}
+
+.video__play{
+  display: block;
+  z-index: 2;
+  position: relative;
+}
+
+.video__title{
+  display: block;
+  z-index: 2;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: base.$white;
+}
