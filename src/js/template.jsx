@@ -7,6 +7,7 @@ import Section3 from './section3.jsx'
 import Section4 from './section4.jsx'
 import Section5 from './section5.jsx'
 import Section6 from './section6.jsx'
+import Section7 from './section7.jsx'
 
 class Template extends React.Component {
     render() {
@@ -20,6 +21,7 @@ class Template extends React.Component {
                     <Section4/>
                     <Section5/>
                     <Section6/>
+                    <Section7/>
                 </main>
             </div>
         )

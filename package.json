@@ -12,7 +12,7 @@
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
     "flickity": "2.3.0",
-    "html-react-parser": "^3.0.8",
+    "html-react-parser": "^3.0.9",
     "html-webpack-plugin": "^5.5.0",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.0",

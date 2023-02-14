@@ -1,0 +1,25 @@
+.conditions__item{
+  display: flex;
+  align-items: flex-start;
+  background: $white;
+  border-radius: 9px;
+  height: 112px;
+  padding: 9px 5px;
+  box-sizing: border-box;
+}
+
+.conditions__icon{
+  display: block;
+  margin-right: 18px;
+}
+
+.conditions__text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #121214;
+
+  b{
+    font-weight: 600;
+  }
+}
