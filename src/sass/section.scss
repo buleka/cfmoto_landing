@@ -57,6 +57,13 @@
   background-position: 0 -115px, 100% -100%;
 }
 
+.section--certificate{
+  background-image: url('../image/background-certificate.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 90px 0;
+}
+
 .section__title{
   font-weight: 700;
   font-size: 36px;
@@ -69,6 +76,10 @@
 .section__title--white{
   color: $white;
   margin-bottom: 19px;
+}
+
+.section__title--s{
+  margin-bottom: 13px;
 }
 
 .section__caption{
