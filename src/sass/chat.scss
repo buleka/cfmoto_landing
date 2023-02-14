@@ -1,0 +1,29 @@
+.chat-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chat__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #121214;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+.chat__caption {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #121214;
+  margin-bottom: 31px;
+}
+

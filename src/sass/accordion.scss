@@ -1,0 +1,40 @@
+.accordion__item {
+  border: 0.5px solid #848484;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.accordion__button {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 17px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 600;
+  color: #121214;
+  &:after{
+    content: '';
+    background-image: url('../image/arrow-accordion.svg');
+    background-repeat: no-repeat;
+    height: 21.9px;
+    width: 11.8px;
+    display: block;
+    transform: rotate(0);
+    transition: 0.4s ease transform;
+  }
+}
+
+.accordion__button[aria-expanded='true']::after, .accordion__button[aria-selected='true']::after{
+  transform: rotate(-90deg);
+}
+
+.accordion__panel{
+  padding: 0 21px 16px 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #121214;
+}

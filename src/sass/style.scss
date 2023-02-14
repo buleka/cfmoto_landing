@@ -3,8 +3,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/Montserrat');
 
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
+//@import 'react-accessible-accordion/dist/fancy-example.css';
 
 @import './header.scss';
 @import "./menu.scss";
@@ -20,6 +19,8 @@
 @import "./conditions.scss";
 @import "./special.scss";
 @import "./certificate.scss";
+@import "./accordion.scss";
+@import "./chat.scss";
 
 
 body {
