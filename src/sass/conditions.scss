@@ -1,4 +1,4 @@
-.conditions__item{
+.conditions__item {
   display: flex;
   align-items: flex-start;
   background: $white;
@@ -8,18 +8,18 @@
   box-sizing: border-box;
 }
 
-.conditions__icon{
+.conditions__icon {
   display: block;
   margin-right: 18px;
 }
 
-.conditions__text{
+.conditions__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #121214;
 
-  b{
+  b {
     font-weight: 600;
   }
 }

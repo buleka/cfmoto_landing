@@ -1,0 +1,42 @@
+.special__item{
+  height: 311px;
+  background: #F4F4F4;
+  border-radius: 9px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url('../image/background-sp.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.special__image img{
+  display: block;
+  border-radius: 9px;
+}
+
+.special__text-wrapper{
+  margin: 25px;
+}
+
+.special__title{
+  color: #037E8C;
+  margin-bottom: 19px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  b{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 139%;
+  }
+}
+
+.special__caption{
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #373737;
+  margin-bottom: 15px;
+}
