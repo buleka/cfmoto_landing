@@ -82,7 +82,7 @@ function RenderAccordion(props){
 class Section10 extends React.Component {
     render() {
         return (
-            <section className={'section section--questions'}>
+            <section className={'section'}>
                 <h2 className={'section__title'}>Вопросы-ответы</h2>
                 <div className={'container'}>
                     <div className={'grid grid-half'}>
