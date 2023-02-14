@@ -38,7 +38,8 @@ function Carousel(props) {
         initialIndex: 3,
         prevNextButtons: false,
         contain: true,
-        rightToLeft: props.direction
+        rightToLeft: props.direction,
+        wrapAround: true
     }
 
     return (

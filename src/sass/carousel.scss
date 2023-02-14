@@ -8,13 +8,11 @@
     border-radius: 100%;
 
     &.is-selected {
-      background: $blue;
+      background: $blue !important;
     }
   }
-}
 
-.carousel--l {
-  .flickity-page-dots {
+  .carousel--l & {
     bottom: 0;
     width: 50px;
     right: 80px;
@@ -32,30 +30,51 @@
       }
     }
   }
+
+
+  .carousel--m & {
+    .dot {
+      background: $black;
+    }
+  }
+
+  .carousel--sm & {
+    text-align: left;
+
+    .dot {
+      background: $black;
+    }
+  }
+
+  .grid--revert .carousel--sm & {
+    text-align: right;
+  }
+
+
 }
 
 .carousel--sm {
   .carousel-cell {
     margin-right: 22px;
   }
-
-  .flickity-page-dots {
-    text-align: left;
-
-    .dot {
-      background: $black;
-
-      &.is-selected {
-        background: $blue;
-      }
-    }
-  }
 }
 
-.grid--revert {
-  .carousel--sm {
-    .flickity-page-dots {
-      text-align: right;
+.carousel--m{
+  .carousel-cell {
+
+    margin-right: 27px;
+
+
+    img{
+      transform: scale(0.7);
+      transition: 0.4s ease transform;
+    }
+
+    &.is-selected{
+      img{
+        transform: scale(1);
+      }
+
     }
   }
 }
