@@ -1,5 +1,10 @@
 @use 'base';
 
+.section{
+  padding-top: 63px;
+  padding-bottom: 65px;
+}
+
 .section--gray{
   background-image: url('../image/background.svg');
   background-color: #F4F4F4;
@@ -17,6 +22,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.section--gray--sm{
+  background-image: url('../image/bg-2.png'), url('../image/bg-1.png') ;
+  background-position: 0 100%, 100% -100px;
+  background-repeat: no-repeat;
+  .section__title{
+    margin-bottom: 39px;
+  }
 }
 
 .section--white{

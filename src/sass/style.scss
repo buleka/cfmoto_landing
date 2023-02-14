@@ -16,7 +16,7 @@
 @import "./list-icons.scss";
 @import "./carousel.scss";
 @import './video.scss';
-
+@import "./persons.scss";
 
 body {
   font-family: 'Montserrat';
@@ -31,7 +31,8 @@ a{
 }
 
 .container{
-  margin: 0 70px;
+  margin: auto;
+  max-width: 1301px;
 }
 
 .hidden{
