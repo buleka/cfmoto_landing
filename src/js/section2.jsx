@@ -1,6 +1,7 @@
 import React from 'react'
 
-import Slider from "react-slick";
+import Flickity from "react-flickity-component";
+
 
 import RouteIcon from '../image/route.svg'
 import StarIcon from '../image/star.svg'
@@ -11,6 +12,7 @@ import RubIcon from '../image/rub.svg'
 import Photo1 from '../photos/photo1.jpeg'
 import Photo2 from '../photos/photo2.jpeg'
 import Photo3 from '../photos/photo3.jpeg'
+import Background from "../photos/background.jpeg";
 
 
 class List extends React.Component {
@@ -30,21 +32,36 @@ class List extends React.Component {
     }
 }
 
+function Carousel(props) {
+
+    const flickityOptions = {
+        initialIndex: 3,
+        prevNextButtons: false,
+        contain: true,
+        rightToLeft: props.direction
+    }
+
+    return (
+        <Flickity
+            className={'carousel carousel--sm'}
+            elementType={'div'}
+            options={flickityOptions}
+            disableImagesLoaded={false}
+            reloadOnUpdate>
+            <div className={'carousel-cell'}><img src={Photo1}/></div>
+            <div className={'carousel-cell'}><img src={Photo2}/></div>
+            <div className={'carousel-cell'}><img src={Photo2}/></div>
+        </Flickity>
+    )
+}
+
+
 class Item extends React.Component {
     constructor(props) {
         super(props);
     }
 
     render() {
-
-        const settings = {
-            infinite: true,
-            slidesToShow: 1,
-            speed: 500,
-            arrows: false,
-            variableWidth: true,
-            dots: true
-        };
 
         return (
             <div className={'description'}>
@@ -66,14 +83,7 @@ class Item extends React.Component {
                         </div>
                     </div>
                     <div className={'grid-half__item'}>
-                        <Slider {...settings}>
-                            <div><img src={Photo1}/></div>
-                            <div><img src={Photo2}/></div>
-                            <div><img src={Photo3}/></div>
-                            <div><img src={Photo1}/></div>
-                            {/*<div><img src={Photo2}/></div>*/}
-                            {/*<div><img src={Photo3}/></div>*/}
-                        </Slider>
+                        <Carousel direction={this.props.direction}/>
                     </div>
                 </div>
             </div>
@@ -105,13 +115,13 @@ class Section2 extends React.Component {
                 <div className={''}>
                     <Item title={'БАЗОВЫЙ'} price={'от 4000'}
                           time={'1,5 - 2 часа'} distance={'20 - 25 км'} complexity={'5***'}
-                          text={text1}/>
+                          text={text1} direction={false}/>
                     <Item title={'РАСШИРЕННЫЙ'} price={'от 16000'}
                           time={'6 - 8 часа'} distance={'60 - 70 км'} complexity={'5***'}
-                          text={text2} externalClass={' grid--revert'}/>
+                          text={text2} externalClass={' grid--revert'} direction={true}/>
                     <Item title={'Experience'} price={'от от 7000'}
                           time={'4 часа'} distance={'40 - 50 км'} complexity={'5***'}
-                          text={text3}/>
+                          text={text3} direction={false}/>
                 </div>
             </section>
         )

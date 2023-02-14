@@ -68,7 +68,8 @@
   img{
     display: block;
     width: 100%;
-    //object-fit: cover;
+    height: 918px;
+    object-fit: cover;
   }
 
 }
@@ -133,30 +134,3 @@
   align-items: center;
 }
 
-.flickity-page-dots {
-  bottom: 0;
-  width: 50px;
-  right: 80px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  .dot {
-    width: 8px;
-    height: 8px;
-    opacity: 1;
-    background: white;
-    border-radius: 100%;
-    margin-bottom: 15px;
-
-    &.is-selected {
-      background: #037E8C;
-    }
-
-    &:last-child{
-      margin-bottom: 0;
-    }
-  }
-}

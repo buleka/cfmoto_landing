@@ -36,7 +36,7 @@ function Carousel(){
 
     return(
         <Flickity
-            className={'carousel'} // default ''
+            className={'carousel carousel--l'} // default ''
             elementType={'div'} // default 'div'
             options={flickityOptions} // takes flickity options {}
             disableImagesLoaded={false} // default false
