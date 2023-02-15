@@ -13,6 +13,7 @@ import Section9 from './section9.jsx'
 import Section10 from './section10.jsx'
 import Section11 from './section11.jsx'
 import Section12 from './section12.jsx'
+import Footer from './footer.jsx'
 class Template extends React.Component {
     render() {
         return (
@@ -34,6 +35,7 @@ class Template extends React.Component {
                     </div>
                     <Section12/>
                 </main>
+                <Footer/>
             </div>
         )
     }

@@ -9,16 +9,11 @@ import ArrowIcon from '../image/arrow-header.svg'
 
 //Photo
 import Background from '../photos/background.jpeg'
-
-
-
-
 class Item extends React.Component {
 
     constructor(props) {
         super(props);
     }
-
     render() {
         return (
             <li className={'menu__item'}>

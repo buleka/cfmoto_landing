@@ -1,0 +1,38 @@
+.footer{
+  padding-bottom: 24px;
+}
+
+
+.footer__top{
+  border-top: 1px solid #121214;
+  border-bottom: 1px solid #121214;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 0 2px 0;
+
+  .menu{
+    margin: 0;
+  }
+}
+
+.footer__logo{
+  margin-left: 40px;
+}
+
+.footer__logo img{
+  display: block;
+  width: 65px;
+  height: 83px;
+}
+
+.footer__bottom{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126.69%;
+  color: #787878;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
