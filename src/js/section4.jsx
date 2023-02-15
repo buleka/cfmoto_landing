@@ -43,7 +43,7 @@ class Section4 extends React.Component {
 
     render() {
         return (
-            <section className={'section section--white'}>
+            <section className={'section section--white section--photo'}>
                 <h2 className={'section__title'}>Фото</h2>
                 <Carousel/>
             </section>

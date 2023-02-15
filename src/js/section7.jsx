@@ -38,7 +38,7 @@ class Section7 extends React.Component {
 
         return (
             <section className={'section section--gray-3'}>
-                <h2 className={'section__title'}>Условия предоставления
+                <h2 className={'section__title'}>Условия предоставления<br/>
                     услуг</h2>
                 <div className={'container'}>
                     <div className={'grid grid--third'}>

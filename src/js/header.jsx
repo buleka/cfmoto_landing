@@ -40,6 +40,7 @@ function Carousel(){
         >
             <img src={Background}/>
             <img src={Background}/>
+            <img src={Background}/>
         </Flickity>
     )
 }
