@@ -22,12 +22,15 @@
 @import "./accordion.scss";
 @import "./chat.scss";
 @import './additional.scss';
+@import "./contacts";
+
 
 body {
   font-family: 'Montserrat';
   font-style: normal;
   font-feature-settings: normal;
   -webkit-font-smoothing: antialiased;
+  color: $black;
 }
 
 a{
