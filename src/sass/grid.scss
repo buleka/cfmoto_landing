@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
+
+  .section--add &{
+    grid-row-gap: 27px;
+  }
 }
 
 .grid-half{
@@ -24,4 +28,9 @@
 .grid--third{
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 30px;
+}
+
+.grid--xs{
+  grid-column-gap: 12px;
+  grid-row-gap: 40px;
 }

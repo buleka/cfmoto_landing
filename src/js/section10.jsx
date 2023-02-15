@@ -13,9 +13,10 @@ import {
 
 
 function RenderAccordion(props){
+
     return(
-        <Accordion>
-            <AccordionItem>
+        <Accordion preExpanded={['a']}>
+            <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
                         Актуальный вопрос?
@@ -84,7 +85,7 @@ class Section10 extends React.Component {
         return (
             <section className={'section'}>
                 <h2 className={'section__title'}>Вопросы-ответы</h2>
-                <div className={'container'}>
+                <div className={'container container--sm'}>
                     <div className={'grid grid-half'}>
                         <div>
                           <RenderAccordion/>
@@ -93,8 +94,8 @@ class Section10 extends React.Component {
                            <img src={ChatIcon}/>
                             <h4 className={'chat__title'}>Есть вопросы?</h4>
                             <p className={'chat__caption'}>
-                                Не стесняйтесь обращаться к нам,
-                                если у вас есть какие-либо вопросы, предложения
+                                Не стесняйтесь обращаться к нам,<br/>
+                                если у вас есть какие-либо вопросы, предложения<br/>
                                 или идеи для сотрудничества
                             </p>
                             <a href={'/'} className={'button button--blue button--sm'}>Задать вопрос</a>

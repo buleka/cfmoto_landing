@@ -90,6 +90,21 @@
   }
 }
 
+
+
+.section--add{
+  padding-top: 12px;
+
+  .section__title{
+    margin-bottom: 55px;
+  }
+}
+
+.section--contacts{
+  padding-top: 43px;
+  padding-bottom: 74px;
+}
+
 .section__title{
   font-weight: 700;
   font-size: 36px;
@@ -110,6 +125,7 @@
 
 .section__title--left{
   text-align: left;
+  line-height: 140.4%;
 }
 
 .section__caption{

@@ -21,7 +21,7 @@ class Section12 extends React.Component {
                     <div className={'grid grid-half'}>
                         <div className={'contacts-wrapper'}>
                             <h2 className={'section__title section__title--left'}>Контакты</h2>
-                            <ul className={'contacts grid grid-half'}>
+                            <ul className={'contacts grid grid-half grid--xs'}>
                                 <li className={'contacts__item'}>
                                     <div className={'contacts__icon'}><img src={HomeIcon}/></div>
                                     <span>Город Геленджик</span>

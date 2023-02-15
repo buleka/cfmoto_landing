@@ -8,7 +8,7 @@ class Item extends React.Component{
     }
     render() {
         return (
-            <li className={'menu__item'}>
+            <li className={'menu__item menu__item--l'}>
                 <a className={'menu__link menu__link--black'} href={'/'}>{this.props.name}</a>
             </li>
         )

@@ -60,7 +60,7 @@ class Section11 extends React.Component {
         ]
 
         return (
-            <section className={'section'}>
+            <section className={'section section--add'}>
                 <h2 className={'section__title'}>Дополнительные услуги</h2>
                 <div className={'container'}>
                     <div className={'grid'}>
